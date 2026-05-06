@@ -1,0 +1,30 @@
+{
+	"name": "viz",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"prepare": "svelte-kit sync || echo ''",
+		"deploy": "npm run build && touch build/.nojekyll && npx gh-pages -d build --dotfiles"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^7.0.1",
+		"@sveltejs/adapter-static": "^3.0.10",
+		"@sveltejs/kit": "^2.57.0",
+		"@sveltejs/vite-plugin-svelte": "^7.0.0",
+		"gh-pages": "^6.3.0",
+		"svelte": "^5.55.2",
+		"vite": "^8.0.7"
+	},
+	"dependencies": {
+		"@gka/svelte-scroller": "^3.0.0",
+		"@sveltejs/svelte-scroller": "^2.0.7",
+		"d3": "^7.9.0",
+		"d3-dsv": "^3.0.1",
+		"layercake": "^10.0.2",
+		"svelteplot": "^0.14.2"
+	}
+}

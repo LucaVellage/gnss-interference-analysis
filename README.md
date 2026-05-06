@@ -1,7 +1,7 @@
 # gnss-interference-analysis
 
 
-
+**This project is a collaboration of Luca Vellage and Daniel Boppert.**
 This repository contains the data pipeline and visualisation code for an interactive analysis of global GPS interference patterns from February 2022 to May 2026, published at **https://lucavellage.github.io/gnss-interference-analysis/**.
 
 ## Methodology

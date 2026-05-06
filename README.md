@@ -39,11 +39,11 @@ gnss-interference-analysis/
 The scrollytelling app in `viz/` is built with **SvelteKit**, **SveltePlot** and **@gka/svelte-scroller**.
 
 ### Data inputs
-Two CSVs exported by `analysis/area_time_series.py` have to be moved manually into `viz/static/data/`:
+Two CSVs exported by `analysis/area_time_series.py` have manually been moved into `viz/static/data/`:
 - `affected_km2_per_week.csv`: weekly global totals
 - `affected_km2_by_zone_week.csv`: weekly totals by conflict zone
 
-The csv files are not included in this repository.
+The csv files are available in this repository for replication.
 
 ### Sources
 

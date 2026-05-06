@@ -8,8 +8,7 @@ This project is a collaboration of Luca Vellage and Daniel Boppert.
 - Luca Vellage: Data preparation/aggregation, HTML/CSS styling, Svelteplot & writing
 - Daniel Boppert: Background research, scraper & writing
 
-
-**This project is a collaboration of Luca Vellage and Daniel Boppert.**## Methodology
+## Methodology
 
 Daily interference data was scraped from [gpsjam.org](https://gpsjam.org), which aggregates ADS-B flight transponder data to detect GPS signal degradation. Affected airspace was estimated by counting hexagonal grid cells (~1,800 km² each) where more than 2% of aircraft reported poor GPS accuracy.
 

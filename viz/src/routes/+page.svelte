@@ -14,7 +14,7 @@ const sections = [
             maxDate: new Date("2026-04-01"),
             index: 1,
             title: "Affected Airspace Has More Than Tripled",
-            text: "From February 2022 until May 2026, the global airspace affected by GPS interference has grown substantially - by 216 % across the full period. On June 18, 2025 inference area reached its peak at over 2.2 million km², equivalent to 0.4 % of Earth's surface or the area of Saudi Arabia.."
+            text: "From February 2022 until May 2026, the global airspace affected by GPS interference has grown substantially, by 216 % across the full period. On June 18, 2025 the global inference area reached its peak at over 2.2 million km², equivalent to 0.4 % of Earth's surface or the area of Saudi Arabia."
         },
 
         // Step 2: silent: annot. disappear, global fades
@@ -48,7 +48,7 @@ const sections = [
             maxDate: new Date("2023-05-01"),
             index: 7,
             title: "Russian Jamming Expands to the Baltics",
-            text: "Russia substantially expanded its GPS jamming capabilities in April 2023 as reported by the <a href=\"https://www.themoscowtimes.com/2023/05/05/russia-expands-gps-signal-jamming-to-15-regions-a81049\">The Moscow Times</a>, intensifying GPS jamming in the airspace of the Baltic Sea. The daily average of affected airspace expands globally from ~500,000 km² to ~900,000 km² between 2022 and 2023."
+            text: "Russia substantially expanded its GPS jamming capabilities in April 2023 as reported by the <a href=\"https://www.themoscowtimes.com/2023/05/05/russia-expands-gps-signal-jamming-to-15-regions-a81049\">The Moscow Times</a>, intensifying GPS jamming in the airspace of the Baltic Sea. The daily global average of affected airspace increased from ~500,000 km² in 2022 to ~900,000 km² in 2023."
         },
 
         // Step 8: silent: grows to Nov 2023, Gaza + Red Sea markers
@@ -70,7 +70,7 @@ const sections = [
 		    maxDate: new Date("2025-07-15"),
 		    index: 11,
 		    title: "Heightening Conflict in South Asia",
-		    text: "South Asia has emerged as a persistent GPS interference zone since 2024, driven by two overlapping conflicts. The ongoing civil war in Myanmar since 2021 generated continuous jamming observable across Southeast Asian flight corridors. On the India–Pakistan border, longstanding tensions escalated in May 2025 when India launched Operation Sindoor, triggering four days of drone and missile exchanges, alongside intensified interference patterns. (Sources: <a href=\"https://insightful.co.in/2025/11/06/jamming-and-spoofing-of-civilian-airspace-are-the-days-of-gps-based-navigation-over/\">Insightful Geopolitics</a>, <a href=\"https://www.gnssjamming.com/post/gps-jamming-report-june-2024\">GPS Jamming Report: June 2024</a>)" 
+		    text: "South Asia has emerged as a persistent GPS interference zone since 2024, driven by two overlapping conflicts. The ongoing civil war in Myanmar since 2021 generated continuous jamming observable across Southeast Asian flight corridors. On the India-Pakistan border, longstanding tensions escalated in May 2025 when India launched Operation Sindoor, triggering four days of drone and missile exchanges, alongside intensified interference patterns. (Sources: <a href=\"https://insightful.co.in/2025/11/06/jamming-and-spoofing-of-civilian-airspace-are-the-days-of-gps-based-navigation-over/\">Insightful Geopolitics</a>, <a href=\"https://www.gnssjamming.com/post/gps-jamming-report-june-2024\">GPS Jamming Report: June 2024</a>)" 
 		},
 
         // Step 12: silent: zoom to 2025–2026
@@ -84,7 +84,7 @@ const sections = [
 		    maxDate: new Date("2026-04-01"),
 		    index: 13,
 		    title: "2026: A Global Interference Crisis",
-		    text: "The outbreak of the Iran war in February 2026 marked a severes escalation, closing multiple flight information regions across the Gulf and pushing global interference to it highest average value of 1.7 million km² of affected airspace per day. By early 2026, no major conflict region is unaffected with the Baltic, Black Sea, Eastern Mediterranean, Red Sea, Arabian Sea, and South Asian corridors all showing persistent jamming."
+		    text: "The outbreak of the Iran war in February 2026 marked a severe escalation, closing multiple flight information regions across the Gulf and pushing the 2026 daily average to a peak of 1.7 million km² of affected airspace. By early 2026, no major conflict region is unaffected, accounting in total for about two-thirds of affected airspace."
 		},
     ];
 
@@ -92,13 +92,14 @@ const sections = [
 
 <div class="container">
     <section class="intro">
-        <span class="eyebrow">Fhain Times</span>
+        <span class="eyebrow">F-hain Times</span>
         <h1>Collateral Airspace: How Modern Conflict Jams the Skies</h1>
         <p <p class="lede">Active conflict zones are shrinking civilian airspace - but beyond visible no-fly zones over battlefields, an invisible threat compounds the crisis. GPS interferences, a tool of modern defence, can render aircraft navigation systems unreliable far beyond the frontline.</p>
-        <p class="paragraph">With the invasion of Ukraine in 2022, Russia aggressively began to deploy GPS interference for defence, primarily to disrupt drones and missiles that rely on GPS navigation. Aircraft navigation relies on the same system, causing aircraft flying near conflict zones to experience sudden, erroneous shifts in their GPS position, potentially causing dangerous miscalculations in crowded airspace. Yet the problem extends well beyond Russia and Ukraine. Data shows that GPS interference has become a regular occurrence across all active regional conflict zones, narrowing the world's safe airspace.</p>
+        <p class="byline">Luca Vellage & Daniel Boppert · May 6, 2026</p>
+        <p class="paragraph">With the invasion of Ukraine in 2022, Russia aggressively began to deploy GPS interference for defence, primarily to disrupt drones and missiles that rely on GPS for navigation. Aircraft navigation builds on the same system, causing aircraft flying near conflict zones to experience sudden, erroneous shifts in their GPS position, potentially causing dangerous miscalculations in crowded airspace. Yet the problem extends well beyond Russia and Ukraine. Data shows that GPS interference has become a regular occurrence across all active regional conflict zones, narrowing the world's safe airspace.</p>
         <p class="paragraph">GPS interference arises primarily through jamming, where a radio frequency intentionally overpowers global navigation satellite systems (GNSS), feeding receivers false position data and distorting their estimated GPS location. Conflict parties regularly deploy jammers to intercept GNSS frequencies across a wide range, like on the Venezuelan island of Monjes del Sur, as the <a href="https://www.nytimes.com/2025/12/20/world/americas/us-venezuela-caribbean-gps-flight-hazard.html">New York Times</a> reports. The radius of interference varies per jammer and terrain with more sophisticated systems capable of reaching far beyond the immediate conflict zone. 
         Russian manufacturer Aviaconversia, for example, markets a GPS jammer with a reach of 200km. </p>
-        <p class="paragraph">The location and reach of GPS jammers deployed in conflict zones is not publicly known. To estimate the extent of affected airspace, The Fhain Times analysed flight records (ADS-B) published by <a href="https://gpsjam.org">GPSJam.org</a>, aggregating aircraft reporting medium to high GPS interference per 1800 km² patches of airspace, approximately the size of London. The full methodology is described <a href="#methodology">here</a>. </p>
+        <p class="paragraph">However, the location and reach of GPS jammers deployed in conflict zones is not publicly known. To estimate the extent of affected airspace, The F-hain Times analysed flight records (ADS-B) published by <a href="https://gpsjam.org">GPSJam.org</a>, aggregating aircraft reporting medium to high GPS interference per 1800 km² patches of airspace, which is approximately the size of London. The full methodology can be read <a href="#methodology">here</a>. </p>
     </section>
 
     <GNSSScroller {sections}>
@@ -117,7 +118,7 @@ const sections = [
         <details id="methodology" class="methodology">
             <summary>Methodology</summary>
             <div class="methodology-body">
-                <p>Daily GPS interference data was scraped from <a href="https://gpsjam.org">GPSJam.org</a>, a public monitoring service that aggregates ADS-B flight records from <a href="https://globe.adsbexchange.com">ADS-B Exchange</a> to detect GPS signal interference across defined patches of airspace. Airspace patches were classified as experiencing interference when more than 2% of aircraft reported degraded signal quality on a given day. The data is structured across a global hexagonal grid at H3 resolution 4, where each cell covers approximately 1,800 km².</p>
+                <p>Daily GPS interference data was scraped from <a href="https://gpsjam.org">GPSJam.org</a>, a public monitoring service that aggregates ADS-B flight records from <a href="https://globe.adsbexchange.com">ADS-B Exchange</a> to detect GPS signal interference across defined patches of airspace. As defined by GPSJam.org, airspace patches were classified as experiencing interference when more than 2% of aircraft reported degraded signal quality on a given day. The data is structured across a global hexagonal grid at H3 resolution 4, where each cell covers approximately 1,800 km².</p>
                 <p>For the visualisation, the number of affected grid cells were counted and multiplied by the cell area to produce an estimate of total affected airspace in km². The graph shows the weekly average of these estimates. Data covers the period from February 14, 2022 to May 1, 2026. Regional breakdowns were produced by assigning each grid cell to a conflict zone of interest based on its geographic coordinates. All code used for scraping, aggregation and analysis is available via <a href="https://github.com/LucaVellage/gnss-interference-analysis">GitHub</a>.</p>
             </div>
         </details>
@@ -211,6 +212,14 @@ const sections = [
         margin: 0 0 2.25rem;
         padding: 0;
         border: 0;
+    }
+
+    .byline {
+        font-size: 0.8rem;
+        color: #999;
+        font-weight: 400;
+        letter-spacing: 0.02em;
+        margin: -0.75rem 0 1.5rem;
     }
 
     .lede::after {
